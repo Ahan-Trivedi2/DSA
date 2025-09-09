@@ -1,16 +1,35 @@
 package binarysearch
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-fun main() {
-    val name = "Kotlin"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
+/**
+ * Binary Search implementation in Kotlin.
+ *
+ * Given a sorted array `nums` and a target integer,
+ * returns the index of the target if it exists, or -1 if not found.
+ */
 
-    for (i in 1..5) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
+// Define Solution Class
+class Solution {
+    /**
+     * Performs binary search on a sorted IntArray.
+     *
+     * @param nums the sorted array of integers
+     * @param target the value to search for
+     * @return the index of the target if found, otherwise -1
+     */
+    fun search(nums: IntArray, target: Int): Int {
+        // initialize low and high indices to define bounds of binary search
+        var low = 0
+        var high = nums.size - 1
+        // as long as we have not exhausted through all possibilities, compute mid, and compare to target
+        while (high >= low) {
+            val mid = (low + high) / 2
+            when {
+                nums[mid] == target -> return mid
+                nums[mid] < target -> low = mid + 1
+                else -> high = mid - 1
+            }
+        }
+        // if we never found 'target' in our IntArray, return - 1
+        return -1
     }
 }
