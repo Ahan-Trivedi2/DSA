@@ -12,7 +12,7 @@ class Solution {
     /**
      * Performs binary search on a sorted IntArray.
      *
-     * @param nums the sorted array of integers see if push works
+     * @param nums the sorted array of integers see if push worksfkdsjklf
      * @param target the value to search for
      * @return the index of the target if found, otherwise -1
      */
