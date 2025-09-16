@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Updated README.md">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/src/main/kotlin/linkedlist/DoublyLinkedLIst.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Started work on DLL">
+      <change afterPath="$PROJECT_DIR$/Assignment2/src/main/kotlin/queue/queue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment2/src/main/kotlin/stack/stack.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/src/main/kotlin/linkedlist/DoublyLinkedLIst.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/src/main/kotlin/linkedlist/DoublyLinkedLIst.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/target/classes/META-INF/Assignment2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment2/target/classes/META-INF/Assignment2.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment2/target/classes/org/example/MainKt.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -51,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.DoublyLinkedListTest.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -70,6 +70,28 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="DoublyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="linkedlist.DoublyLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DoublyLinkedListTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -87,7 +109,10 @@
       <updated>1757196548601</updated>
       <workItem from="1757196549908" duration="103000" />
       <workItem from="1757196993149" duration="464000" />
-      <workItem from="1757942385231" duration="2801000" />
+      <workItem from="1757942385231" duration="2903000" />
+      <workItem from="1757956869138" duration="4563000" />
+      <workItem from="1757962419217" duration="4638000" />
+      <workItem from="1757980248070" duration="11759000" />
     </task>
     <task id="LOCAL-00001" summary="Updated README.md">
       <option name="closed" value="true" />
@@ -97,7 +122,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757197254905</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Started work on DLL">
+      <option name="closed" value="true" />
+      <created>1757945369109</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945369109</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Started work on DLL">
+      <option name="closed" value="true" />
+      <created>1757945408540</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757945408540</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md" />
+    <MESSAGE value="Started work on DLL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started work on DLL" />
   </component>
 </project>
