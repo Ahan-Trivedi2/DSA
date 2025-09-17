@@ -1,0 +1,7 @@
+**Exercise 5: Solve the copy stack problem (source: University of Washington CSE122)**
+
+**Given a stack return a copy of the original stack (i.e., a new stack with the same values as the original, stored in the same order as the original). Your method should create the new stack and fill it up with the same values that are stored in the original stack.**
+
+**You may use one queue as auxiliary storage.**
+
+To solve the copy stack problem using only one auxiliary queue, we begin by reversing the original stack. We do this by popping each element from the stack and enqueuing it into the queue, then immediately dequeuing each element from the queue and pushing it back onto the original stack. This reversal step allows us to access the original stack’s elements in bottom-to-top order. Once the stack is reversed, we move into two parallel operations. First, we pop each element from this reversed stack and push it into a new copy stack. This step builds the copy stack in the correct order, top to bottom, matching the original. Second, as we pop from the reversed original stack, we simultaneously enqueue each element into the queue again, setting ourselves up to restore the original stack. Finally, we dequeue all elements from the queue and push them back onto the original stack. Since queue-to-stack reverses the order, this operation correctly restores the original stack to its initial form. In essence, we reverse the original stack once to build the copy correctly, then use the queue as temporary storage to rebuild the original without losing any elements.
