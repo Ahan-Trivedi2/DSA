@@ -5,6 +5,8 @@ import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 import kotlin.test.assertFalse
 
+// I wrote the base of all test cases myself, and then used chatGPT to expand on them
+
 /**
  * Unit tests for the DLLStackImplementation class.
  * Each test corresponds 1-to-1 with a public method.

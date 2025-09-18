@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="9/15 Work on Assignment2">
-      <change afterPath="$PROJECT_DIR$/Assignment2/src/main/kotlin/exercise3/exercise3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/src/main/kotlin/exercise5/exercise5.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/src/test/kotlin/queue/queueTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment2/src/test/kotlin/stack/stackTest.kt" afterDir="false" />
+    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="9/17 work on assignment2">
+      <change afterPath="$PROJECT_DIR$/Assignment2/src/main/kotlin/exercise4/exercise4.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,30 +44,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.DoublyLinkedListTest.executor": "Run",
-    "JUnit.QueueTest.executor": "Run",
-    "JUnit.StackTest.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/atrivedi/DSA",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/atrivedi/DSA/Assignment2/src/main/kotlin/Main.kt",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.DoublyLinkedListTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QueueTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StackTest.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/atrivedi/DSA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/atrivedi/DSA/Assignment2/src/main/kotlin/Main.kt&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.StackTest">
     <configuration name="DoublyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment2" />
@@ -146,7 +143,8 @@
       <workItem from="1757956869138" duration="4563000" />
       <workItem from="1757962419217" duration="4638000" />
       <workItem from="1757980248070" duration="11949000" />
-      <workItem from="1758130191448" duration="5705000" />
+      <workItem from="1758130191448" duration="5781000" />
+      <workItem from="1758165552005" duration="732000" />
     </task>
     <task id="LOCAL-00001" summary="Updated README.md">
       <option name="closed" value="true" />
@@ -188,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757993755645</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="9/17 work on assignment2">
+      <option name="closed" value="true" />
+      <created>1758137709311</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758137709311</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +204,7 @@
     <MESSAGE value="Updated README.md" />
     <MESSAGE value="Started work on DLL" />
     <MESSAGE value="9/15 Work on Assignment2" />
-    <option name="LAST_COMMIT_MESSAGE" value="9/15 Work on Assignment2" />
+    <MESSAGE value="9/17 work on assignment2" />
+    <option name="LAST_COMMIT_MESSAGE" value="9/17 work on assignment2" />
   </component>
 </project>
