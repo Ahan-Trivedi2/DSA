@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="9/17 work on assignment2">
-      <change afterPath="$PROJECT_DIR$/Assignment2/src/main/kotlin/exercise4/exercise4.kt" afterDir="false" />
+    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Completes assignment2">
+      <change afterPath="$PROJECT_DIR$/IC6/ic6.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IC6/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +67,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/atrivedi/DSA/Assignment2/src/main/kotlin/Main.kt&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/atrivedi/DSA/IC6/src/main/kotlin/Main.kt&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -145,6 +149,9 @@
       <workItem from="1757980248070" duration="11949000" />
       <workItem from="1758130191448" duration="5781000" />
       <workItem from="1758165552005" duration="732000" />
+      <workItem from="1758168425968" duration="288000" />
+      <workItem from="1758570702950" duration="2129000" />
+      <workItem from="1758572942417" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="Updated README.md">
       <option name="closed" value="true" />
@@ -194,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758137709311</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Completes assignment2">
+      <option name="closed" value="true" />
+      <created>1758168579997</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758168579997</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +220,18 @@
     <MESSAGE value="Started work on DLL" />
     <MESSAGE value="9/15 Work on Assignment2" />
     <MESSAGE value="9/17 work on assignment2" />
-    <option name="LAST_COMMIT_MESSAGE" value="9/17 work on assignment2" />
+    <MESSAGE value="Completes assignment2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completes assignment2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/IC6/src/main/kotlin/Main.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
