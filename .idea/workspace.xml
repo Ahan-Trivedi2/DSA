@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Finished &quot;representing graphs&quot;">
-      <change afterPath="$PROJECT_DIR$/Assignment3/src/main/kotlin/referenceHeap/referenceHeapImplementation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/src/test/kotlin/priorityQueue/priorityQueueTest.kt" afterDir="false" />
+    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Finished PQ Implementation">
+      <change afterPath="$PROJECT_DIR$/Assignment3/src/main/kotlin/DijkstrasAlgo/dijkstra.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/src/main/kotlin/dijkstraImplementation/build_graph.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/src/main/kotlin/dijkstraImplementation/path_sum_solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/src/main/kotlin/dijkstraImplementation/read_matrix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/src/main/resources/matrix.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/src/test/kotlin/DijkstrasAlgo/dijkstra_test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment3/src/test/resources/matrix.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -47,12 +53,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.DijkstraTest.executor": "Run",
     "JUnit.DirectedWeightedGraphTest.executor": "Run",
     "JUnit.DoublyLinkedListTest.executor": "Run",
     "JUnit.PriorityQueueTest.executor": "Run",
     "JUnit.QueueTest.executor": "Run",
     "JUnit.StackTest.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
+    "Kotlin.Path_sum_solutionKt.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -60,24 +68,46 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/atrivedi/DSA",
+    "last_opened_file_path": "C:/Users/atrivedi/DSA/Assignment3/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/atrivedi/DSA/Assignment3/src/main/kotlin/Main.kt",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.appearance",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\atrivedi\DSA\Assignment3\src\main\resources" />
+      <recent name="C:\Users\atrivedi\DSA\Assignment3\src\test\resources" />
+    </key>
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
       <recent name="graph" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PriorityQueueTest">
+  <component name="RunManager" selected="Kotlin.Path_sum_solutionKt">
+    <configuration name="DijkstraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DijkstrasAlgo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DijkstrasAlgo" />
+      <option name="MAIN_CLASS_NAME" value="DijkstrasAlgo.DijkstraTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DirectedWeightedGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment3" />
       <extension name="coverage">
@@ -88,21 +118,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="graph" />
       <option name="MAIN_CLASS_NAME" value="graph.DirectedWeightedGraphTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DoublyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linkedlist" />
-      <option name="MAIN_CLASS_NAME" value="linkedlist.DoublyLinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,21 +138,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="queue" />
-      <option name="MAIN_CLASS_NAME" value="queue.QueueTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment2" />
       <extension name="coverage">
@@ -153,13 +153,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Path_sum_solutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dijkstraImplementation.Path_sum_solutionKt" />
+      <module name="Assignment3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Path_sum_solutionKt" />
+        <item itemvalue="JUnit.DijkstraTest" />
         <item itemvalue="JUnit.PriorityQueueTest" />
         <item itemvalue="JUnit.DirectedWeightedGraphTest" />
         <item itemvalue="JUnit.StackTest" />
-        <item itemvalue="JUnit.QueueTest" />
-        <item itemvalue="JUnit.DoublyLinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +198,16 @@
       <workItem from="1758572942417" duration="17000" />
       <workItem from="1758583192364" duration="3068000" />
       <workItem from="1758587806289" duration="4648000" />
-      <workItem from="1758650709622" duration="5812000" />
+      <workItem from="1758650709622" duration="6395000" />
+      <workItem from="1758888299293" duration="612000" />
+      <workItem from="1758899981889" duration="723000" />
+      <workItem from="1758900726088" duration="20000" />
+      <workItem from="1758901361072" duration="4043000" />
+      <workItem from="1758911705754" duration="3702000" />
+      <workItem from="1759105098190" duration="46000" />
+      <workItem from="1759113804881" duration="1079000" />
+      <workItem from="1759149758076" duration="3890000" />
+      <workItem from="1759165452170" duration="3378000" />
     </task>
     <task id="LOCAL-00001" summary="Updated README.md">
       <option name="closed" value="true" />
@@ -273,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758650726863</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Finished PQ Implementation">
+      <option name="closed" value="true" />
+      <created>1758675469711</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1758675469711</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +311,8 @@
     <MESSAGE value="Completes assignment2" />
     <MESSAGE value="9/22 Work" />
     <MESSAGE value="Finished &quot;representing graphs&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished &quot;representing graphs&quot;" />
+    <MESSAGE value="Finished PQ Implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished PQ Implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
