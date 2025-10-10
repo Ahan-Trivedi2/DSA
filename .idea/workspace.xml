@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Finished PQ Implementation">
-      <change afterPath="$PROJECT_DIR$/Assignment3/src/main/kotlin/DijkstrasAlgo/dijkstra.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/src/main/kotlin/dijkstraImplementation/build_graph.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/src/main/kotlin/dijkstraImplementation/path_sum_solution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/src/main/kotlin/dijkstraImplementation/read_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/src/main/resources/matrix.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/src/test/kotlin/DijkstrasAlgo/dijkstra_test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment3/src/test/resources/matrix.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Finished Assignment3 (Graphs and Graph Searching)">
+      <change afterPath="$PROJECT_DIR$/Assignment4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment4/src/main/kotlin/insertionSort/insertionSort.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment4/src/main/kotlin/selectionSort/selectionSort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,10 +54,18 @@
     "JUnit.DijkstraTest.executor": "Run",
     "JUnit.DirectedWeightedGraphTest.executor": "Run",
     "JUnit.DoublyLinkedListTest.executor": "Run",
+    "JUnit.InsertionSortTest.executor": "Run",
+    "JUnit.InsertionSortTest.testInsertionSort_basicCase.executor": "Run",
+    "JUnit.MergeSortTest.executor": "Run",
     "JUnit.PriorityQueueTest.executor": "Run",
     "JUnit.QueueTest.executor": "Run",
+    "JUnit.QuickSortTest.executor": "Run",
+    "JUnit.SelectionSortTest.executor": "Run",
     "JUnit.StackTest.executor": "Run",
+    "Kotlin.BenchmarkingKt (1).executor": "Run",
+    "Kotlin.BenchmarkingKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
+    "Kotlin.MaketablefromresultsKt.executor": "Run",
     "Kotlin.Path_sum_solutionKt.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -74,7 +80,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/atrivedi/DSA/Assignment3/src/main/kotlin/Main.kt",
+    "onboarding.tips.debug.path": "C:/Users/atrivedi/DSA/Assignment4/src/main/kotlin/Main.kt",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -92,81 +98,66 @@
       <recent name="graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Path_sum_solutionKt">
-    <configuration name="DijkstraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment3" />
+  <component name="RunManager" selected="Kotlin.MaketablefromresultsKt">
+    <configuration name="InsertionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DijkstrasAlgo.*" />
+          <option name="PATTERN" value="insertionSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DijkstrasAlgo" />
-      <option name="MAIN_CLASS_NAME" value="DijkstrasAlgo.DijkstraTest" />
+      <option name="PACKAGE_NAME" value="insertionSort" />
+      <option name="MAIN_CLASS_NAME" value="insertionSort.InsertionSortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirectedWeightedGraphTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment3" />
+    <configuration name="InsertionSortTest.testInsertionSort_basicCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="insertionSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="graph" />
-      <option name="MAIN_CLASS_NAME" value="graph.DirectedWeightedGraphTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="insertionSort" />
+      <option name="MAIN_CLASS_NAME" value="insertionSort.InsertionSortTest" />
+      <option name="METHOD_NAME" value="testInsertionSort_basicCase" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="priorityQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="priorityQueue" />
-      <option name="MAIN_CLASS_NAME" value="priorityQueue.PriorityQueueTest" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="BenchmarkingKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="benchmarking.BenchmarkingKt" />
+      <module name="Assignment4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stack" />
-      <option name="MAIN_CLASS_NAME" value="stack.StackTest" />
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="BenchmarkingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="benchmark.BenchmarkingKt" />
+      <module name="Assignment4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Path_sum_solutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dijkstraImplementation.Path_sum_solutionKt" />
-      <module name="Assignment3" />
+    <configuration name="MaketablefromresultsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="benchmarking.MaketablefromresultsKt" />
+      <module name="Assignment4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Path_sum_solutionKt" />
-        <item itemvalue="JUnit.DijkstraTest" />
-        <item itemvalue="JUnit.PriorityQueueTest" />
-        <item itemvalue="JUnit.DirectedWeightedGraphTest" />
-        <item itemvalue="JUnit.StackTest" />
+        <item itemvalue="Kotlin.MaketablefromresultsKt" />
+        <item itemvalue="Kotlin.BenchmarkingKt (1)" />
+        <item itemvalue="JUnit.InsertionSortTest.testInsertionSort_basicCase" />
+        <item itemvalue="JUnit.InsertionSortTest" />
+        <item itemvalue="Kotlin.BenchmarkingKt" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +165,6 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
       </set>
     </attachedChunks>
   </component>
@@ -207,7 +197,10 @@
       <workItem from="1759105098190" duration="46000" />
       <workItem from="1759113804881" duration="1079000" />
       <workItem from="1759149758076" duration="3890000" />
-      <workItem from="1759165452170" duration="3378000" />
+      <workItem from="1759165452170" duration="4682000" />
+      <workItem from="1759338353737" duration="3240000" />
+      <workItem from="1759346581955" duration="1661000" />
+      <workItem from="1759604885530" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="Updated README.md">
       <option name="closed" value="true" />
@@ -297,7 +290,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758675469711</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Finished Assignment3 (Graphs and Graph Searching)">
+      <option name="closed" value="true" />
+      <created>1759170064380</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1759170064380</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Finished Assignment3 (Graphs and Graph Searching)">
+      <option name="closed" value="true" />
+      <created>1759170191565</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1759170191565</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +321,8 @@
     <MESSAGE value="9/22 Work" />
     <MESSAGE value="Finished &quot;representing graphs&quot;" />
     <MESSAGE value="Finished PQ Implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished PQ Implementation" />
+    <MESSAGE value="Finished Assignment3 (Graphs and Graph Searching)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Assignment3 (Graphs and Graph Searching)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
