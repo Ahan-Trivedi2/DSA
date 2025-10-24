@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Finished Assignment4 Code">
-      <change afterPath="$PROJECT_DIR$/Assignment5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment5/src/test/kotlin/matrix_class/benchmarkMatrixMultiplication_test.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Finished Assignment5 Code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -333,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760133284593</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Finished Assignment5 Code">
+      <option name="closed" value="true" />
+      <created>1761273942849</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1761273942849</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +353,8 @@
     <MESSAGE value="Finished PQ Implementation" />
     <MESSAGE value="Finished Assignment3 (Graphs and Graph Searching)" />
     <MESSAGE value="Finished Assignment4 Code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Assignment4 Code" />
+    <MESSAGE value="Finished Assignment5 Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Assignment5 Code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
