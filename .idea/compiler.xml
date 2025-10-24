@@ -10,6 +10,7 @@
         <module name="Assignment4" />
         <module name="Assignment2" />
         <module name="IC6" />
+        <module name="Assignment5" />
       </profile>
     </annotationProcessing>
   </component>

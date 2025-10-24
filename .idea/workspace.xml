@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Finished Assignment3 (Graphs and Graph Searching)">
-      <change afterPath="$PROJECT_DIR$/Assignment4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment4/src/main/kotlin/insertionSort/insertionSort.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment4/src/main/kotlin/selectionSort/selectionSort.kt" afterDir="false" />
+    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Finished Assignment4 Code">
+      <change afterPath="$PROJECT_DIR$/Assignment5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment5/src/test/kotlin/matrix_class/benchmarkMatrixMultiplication_test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -49,46 +48,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.DijkstraTest.executor": "Run",
-    "JUnit.DirectedWeightedGraphTest.executor": "Run",
-    "JUnit.DoublyLinkedListTest.executor": "Run",
-    "JUnit.InsertionSortTest.executor": "Run",
-    "JUnit.InsertionSortTest.testInsertionSort_basicCase.executor": "Run",
-    "JUnit.MergeSortTest.executor": "Run",
-    "JUnit.PriorityQueueTest.executor": "Run",
-    "JUnit.QueueTest.executor": "Run",
-    "JUnit.QuickSortTest.executor": "Run",
-    "JUnit.SelectionSortTest.executor": "Run",
-    "JUnit.StackTest.executor": "Run",
-    "Kotlin.BenchmarkingKt (1).executor": "Run",
-    "Kotlin.BenchmarkingKt.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "Kotlin.MaketablefromresultsKt.executor": "Run",
-    "Kotlin.Path_sum_solutionKt.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/atrivedi/DSA/Assignment3/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/atrivedi/DSA/Assignment4/src/main/kotlin/Main.kt",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.appearance",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.DijkstraTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DirectedWeightedGraphTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DoublyLinkedListTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InsertionSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InsertionSortTest.testInsertionSort_basicCase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MatrixBenchmarkTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MatrixTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MatrixTest.testStrassenMultiply.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PriorityQueueTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QueueTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuickSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SelectionSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SequenceAlignerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StackTest.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.BenchmarkingKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.BenchmarkingKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MaketablefromresultsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Path_sum_solutionKt.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/atrivedi/DSA/Assignment3/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/atrivedi/DSA/Assignment5/src/main/kotlin/Main.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\atrivedi\DSA\Assignment3\src\main\resources" />
@@ -98,66 +101,82 @@
       <recent name="graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MaketablefromresultsKt">
-    <configuration name="InsertionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment4" />
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="MatrixBenchmarkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="insertionSort.*" />
+          <option name="PATTERN" value="matrix_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="insertionSort" />
-      <option name="MAIN_CLASS_NAME" value="insertionSort.InsertionSortTest" />
+      <option name="PACKAGE_NAME" value="matrix_class" />
+      <option name="MAIN_CLASS_NAME" value="matrix_class.MatrixBenchmarkTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortTest.testInsertionSort_basicCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment4" />
+    <configuration name="MatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="insertionSort.*" />
+          <option name="PATTERN" value="matrix_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="insertionSort" />
-      <option name="MAIN_CLASS_NAME" value="insertionSort.InsertionSortTest" />
-      <option name="METHOD_NAME" value="testInsertionSort_basicCase" />
+      <option name="PACKAGE_NAME" value="matrix_class" />
+      <option name="MAIN_CLASS_NAME" value="matrix_class.MatrixTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MatrixTest.testStrassenMultiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="matrix_class.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="matrix_class" />
+      <option name="MAIN_CLASS_NAME" value="matrix_class.MatrixTest" />
+      <option name="METHOD_NAME" value="testStrassenMultiply" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BenchmarkingKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="benchmarking.BenchmarkingKt" />
-      <module name="Assignment4" />
+    <configuration name="SequenceAlignerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DP" />
+      <option name="MAIN_CLASS_NAME" value="DP.SequenceAlignerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BenchmarkingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="benchmark.BenchmarkingKt" />
-      <module name="Assignment4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaketablefromresultsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="benchmarking.MaketablefromresultsKt" />
-      <module name="Assignment4" />
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP.MainKt" />
+      <module name="Assignment5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MaketablefromresultsKt" />
-        <item itemvalue="Kotlin.BenchmarkingKt (1)" />
-        <item itemvalue="JUnit.InsertionSortTest.testInsertionSort_basicCase" />
-        <item itemvalue="JUnit.InsertionSortTest" />
-        <item itemvalue="Kotlin.BenchmarkingKt" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="JUnit.SequenceAlignerTest" />
+        <item itemvalue="JUnit.MatrixBenchmarkTest" />
+        <item itemvalue="JUnit.MatrixTest.testStrassenMultiply" />
+        <item itemvalue="JUnit.MatrixTest" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759170191565</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Finished Assignment4 Code">
+      <option name="closed" value="true" />
+      <created>1760133284593</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1760133284593</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +349,8 @@
     <MESSAGE value="Finished &quot;representing graphs&quot;" />
     <MESSAGE value="Finished PQ Implementation" />
     <MESSAGE value="Finished Assignment3 (Graphs and Graph Searching)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Assignment3 (Graphs and Graph Searching)" />
+    <MESSAGE value="Finished Assignment4 Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Assignment4 Code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
