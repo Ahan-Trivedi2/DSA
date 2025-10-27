@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Finished Assignment5 Code">
-      <change afterPath="$PROJECT_DIR$/IDD/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Started IDD code">
+      <change afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/BFS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/BFS.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/DFS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/DFS.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/Maint.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/maze.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/maze.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/mazeGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/mazeGenerator.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +68,7 @@
     "JUnit.StackTest.executor": "Run",
     "Kotlin.BenchmarkingKt (1).executor": "Run",
     "Kotlin.BenchmarkingKt.executor": "Run",
+    "Kotlin.MainKt (1).executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.MaketablefromresultsKt.executor": "Run",
     "Kotlin.Path_sum_solutionKt.executor": "Run",
@@ -76,7 +79,8 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/atrivedi/DSA/Assignment3/src/main/resources",
+    "last_directory_selection": "C:/Users/atrivedi/DSA/IDD/src/main/kotlin/projectFiles",
+    "last_opened_file_path": "C:/Users/atrivedi/DSA/IDD/src/main/kotlin/projectFiles",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,21 +90,23 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.appearance",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\atrivedi\DSA\IDD\src\main\kotlin\projectFiles" />
       <recent name="C:\Users\atrivedi\DSA\Assignment3\src\main\resources" />
       <recent name="C:\Users\atrivedi\DSA\Assignment3\src\test\resources" />
     </key>
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
+      <recent name="projectFiles" />
       <recent name="graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="Kotlin.MainKt (1)">
     <configuration name="MatrixBenchmarkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Assignment5" />
       <extension name="coverage">
@@ -111,21 +117,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="matrix_class" />
       <option name="MAIN_CLASS_NAME" value="matrix_class.MatrixBenchmarkTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="matrix_class.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="matrix_class" />
-      <option name="MAIN_CLASS_NAME" value="matrix_class.MatrixTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,6 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projectFiles.MainKt" />
+      <module name="IDD" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DP.MainKt" />
       <module name="Assignment5" />
@@ -171,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="JUnit.SequenceAlignerTest" />
         <item itemvalue="JUnit.MatrixBenchmarkTest" />
         <item itemvalue="JUnit.MatrixTest.testStrassenMultiply" />
-        <item itemvalue="JUnit.MatrixTest" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +362,23 @@
       <option name="project" value="LOCAL" />
       <updated>1761310343330</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Started IDD code">
+      <option name="closed" value="true" />
+      <created>1761401727408</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1761401727408</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Started IDD code">
+      <option name="closed" value="true" />
+      <created>1761401774496</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1761401774496</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +396,8 @@
     <MESSAGE value="Finished Assignment3 (Graphs and Graph Searching)" />
     <MESSAGE value="Finished Assignment4 Code" />
     <MESSAGE value="Finished Assignment5 Code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Assignment5 Code" />
+    <MESSAGE value="Started IDD code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started IDD code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -394,5 +409,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
