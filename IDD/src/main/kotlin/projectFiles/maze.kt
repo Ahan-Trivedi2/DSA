@@ -1,10 +1,23 @@
 package projectFiles
 
+/**
+ * Represents a maze with helper functions to find start and end points,
+ * and to print the maze in plain or solved form.
+ *
+ * @property grid 2D character array representing the maze layout.
+ *                'S' marks the start, 'E' marks the end, '.' is a path, and '#' is a wall.
+ */
 class Maze(val grid: Array<CharArray>) {
     // class properties, rows and columns
     val rows = grid.size
     val columns = grid[0].size
-    // find start and end positions in the maze
+    /**
+     * Finds the start ('S') and end ('E') positions in the maze grid.
+     *
+     * @return A pair containing the start and end coordinates as (row, column) pairs.
+     * @throws IllegalStateException if either the start or end point is missing.
+     */
+
     fun findStartEnd(): Pair<Pair<Int, Int>, Pair<Int,Int>> {
         // initialize a variable start which can hold a pair object
         var start: Pair<Int,Int>? = null
@@ -23,13 +36,19 @@ class Maze(val grid: Array<CharArray>) {
         }
         return Pair(start,end)
     }
-    // Print the maze in plain ASCII
+    /**
+     * Prints the maze grid to the console in plain ASCII format.
+     */
     fun print() {
         for (row in grid) {
             println(row.concatToString())
         }
     }
-    // Print the maze with a path drawn (using *)
+    /**
+     * Prints the maze with the given path marked using '*' characters.
+     *
+     * @param path A list of (row, column) coordinates representing the path to draw.
+     */
     fun printWithPath(path: List<Pair<Int,Int>>) {
         // make a DEEP COPY of the maze grid so we can freely edit it
         val copy = Array(grid.size) { CharArray(grid[0].size) }

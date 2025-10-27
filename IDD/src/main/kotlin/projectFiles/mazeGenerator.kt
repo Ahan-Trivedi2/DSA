@@ -2,6 +2,14 @@ package projectFiles
 
 import kotlin.random.Random
 
+/**
+ * Generates a random maze using recursive backtracking.
+ *
+ * @param rows The number of rows in the maze.
+ * @param columns The number of columns in the maze.
+ * @return A 2D character array representing the generated maze,
+ *         with 'S' as the start, 'E' as the end, '.' as open paths, and '#' as walls.
+ */
 fun generateMaze(rows: Int, columns: Int): Array<CharArray> {
     // Ensure we have odd dimensions for clean boundaries
     val r = if (rows % 2 == 0) rows + 1 else rows
@@ -39,7 +47,14 @@ fun generateMaze(rows: Int, columns: Int): Array<CharArray> {
     maze[r - 2][c - 2] = 'E'
     return maze
 }
-// Adds random loops between corridors to make some mazes imperfect
+
+/**
+ * Adds random loops to the maze to make it imperfect (i.e., with multiple possible paths).
+ *
+ * @param maze The 2D maze grid to modify.
+ * @param probability The chance of converting a wall into a path.
+ */
+
 private fun addLoops(maze: Array<CharArray>, probability: Double) {
     val r = maze.size
     val c = maze[0].size

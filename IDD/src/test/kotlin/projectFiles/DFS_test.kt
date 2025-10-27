@@ -4,9 +4,19 @@ import kotlin.test.Test
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 import kotlin.test.assertNotNull
+/**
+ * Unit test class for the DFS maze-solving algorithm.
+ * Ensures that the DFS function finds a valid, continuous path
+ * from start to end and produces correct performance metrics.
+ */
 
 class DFS_test {
     @Test
+    /**
+     * Tests the DFS algorithm to verify it finds a valid and continuous path
+     * from the start ('S') to the end ('E') in a simple maze,
+     * and that the output metrics are consistent and valid.
+     */
     fun dfs_test() {
         // Sample maze grid
         // S = Start, E = End, . = open path, # = wall

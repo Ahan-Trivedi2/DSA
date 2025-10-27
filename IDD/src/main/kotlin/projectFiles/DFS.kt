@@ -3,6 +3,14 @@ package projectFiles
 
 import kotlin.system.measureNanoTime
 
+/**
+ * Runs a depth-first search (DFS) on the maze to find a path
+ * from the start ('S') to the end ('E') cell.
+ *
+ * @param maze The maze to solve.
+ * @return A pair containing the path as a list of coordinates and
+ *         a Metrics object with runtime, path length, and nodes visited.
+ */
 fun dfs(maze: Maze) : Pair<List<Pair<Int,Int>>, Metrics> {
     // extract the grid and start/end coordinates using the Maze helper methods
     val grid = maze.grid

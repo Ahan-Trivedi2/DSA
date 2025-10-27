@@ -1,6 +1,11 @@
 // main.kt
 package projectFiles
 
+/**
+ * Entry point for the Maze Solver program.
+ * Generates a random maze, solves it using BFS and DFS,
+ * and prints the original maze, performance metrics, and solved paths.
+ */
 fun main() {
     // print "Maze solver - BFS vs DFS" in output terminal
     println("Maze solver - BFS vs DFS\n")

@@ -5,8 +5,18 @@ import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 import kotlin.test.assertNotNull
 
+/**
+ * Unit test class for the BFS maze-solving algorithm.
+ * Verifies that the BFS function finds a valid, continuous path
+ * from start to end and produces correct performance metrics.
+ */
 class BFS_test {
     @Test
+    /**
+     * Tests the BFS algorithm to ensure it finds a valid and continuous path
+     * from the start ('S') to the end ('E') in a simple maze,
+     * and that the returned metrics are consistent and valid.
+     */
     fun bfs_test() {
         // Sample maze grid
         // S = Start, E = End, . = open path, # = wall
