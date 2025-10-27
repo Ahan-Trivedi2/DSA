@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Started IDD code">
-      <change afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/Main.kt" afterDir="false" />
+    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Work on IDD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/BFS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/BFS.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/DFS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/DFS.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/Maint.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/maze.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/maze.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/mazeGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/mazeGenerator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDD/target/classes/projectFiles/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/target/classes/projectFiles/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDD/target/classes/projectFiles/MazeGeneratorKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/target/classes/projectFiles/MazeGeneratorKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.BFS_test.executor": "Run",
     "JUnit.DijkstraTest.executor": "Run",
     "JUnit.DirectedWeightedGraphTest.executor": "Run",
     "JUnit.DoublyLinkedListTest.executor": "Run",
@@ -106,34 +104,33 @@
       <recent name="graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (1)">
-    <configuration name="MatrixBenchmarkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment5" />
+  <component name="RunManager" selected="JUnit.DFS_test">
+    <configuration name="BFS_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IDD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="matrix_class.*" />
+          <option name="PATTERN" value="projectFiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="matrix_class" />
-      <option name="MAIN_CLASS_NAME" value="matrix_class.MatrixBenchmarkTest" />
+      <option name="PACKAGE_NAME" value="projectFiles" />
+      <option name="MAIN_CLASS_NAME" value="projectFiles.BFS_test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixTest.testStrassenMultiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment5" />
+    <configuration name="DFS_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IDD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="matrix_class.*" />
+          <option name="PATTERN" value="projectFiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="matrix_class" />
-      <option name="MAIN_CLASS_NAME" value="matrix_class.MatrixTest" />
-      <option name="METHOD_NAME" value="testStrassenMultiply" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="projectFiles" />
+      <option name="MAIN_CLASS_NAME" value="projectFiles.DFS_test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DFS_test" />
+        <item itemvalue="JUnit.BFS_test" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="JUnit.SequenceAlignerTest" />
-        <item itemvalue="JUnit.MatrixBenchmarkTest" />
-        <item itemvalue="JUnit.MatrixTest.testStrassenMultiply" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761401774496</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Work on IDD">
+      <option name="closed" value="true" />
+      <created>1761533814932</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1761533814932</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +402,8 @@
     <MESSAGE value="Finished Assignment4 Code" />
     <MESSAGE value="Finished Assignment5 Code" />
     <MESSAGE value="Started IDD code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started IDD code" />
+    <MESSAGE value="Work on IDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Work on IDD" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
