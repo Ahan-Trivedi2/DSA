@@ -10,7 +10,7 @@ fun main() {
     // print "Maze solver - BFS vs DFS" in output terminal
     println("Maze solver - BFS vs DFS\n")
     // Generate a random maze using generateMaze function
-    val mazeArray = generateMaze(40, 40)
+    val mazeArray = generateMaze(10, 10)
     // Wrap this in a Maze object to access helper functions from the Maze class
     val maze = Maze(mazeArray)
     // Print the original maze (using the print helper)

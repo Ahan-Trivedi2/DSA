@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Work on IDD">
+    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Finished IDD code (with correct documentation practices)">
+      <change afterPath="$PROJECT_DIR$/Assignment7/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/BFS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/BFS.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/DFS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/DFS.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/maze.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/maze.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/mazeGenerator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/mazeGenerator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/metrics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/metrics.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/src/test/kotlin/projectFiles/BFS_test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/test/kotlin/projectFiles/BFS_test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDD/target/classes/projectFiles/BFSKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/target/classes/projectFiles/BFSKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDD/target/classes/projectFiles/DFSKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/target/classes/projectFiles/DFSKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDD/target/classes/projectFiles/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/target/classes/projectFiles/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDD/target/classes/projectFiles/Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/target/classes/projectFiles/Maze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDD/target/classes/projectFiles/MazeGeneratorKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/target/classes/projectFiles/MazeGeneratorKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IDD/target/classes/projectFiles/Metrics.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/target/classes/projectFiles/Metrics.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,53 +54,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.BFS_test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DijkstraTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DirectedWeightedGraphTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DoublyLinkedListTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InsertionSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InsertionSortTest.testInsertionSort_basicCase.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MatrixBenchmarkTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MatrixTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MatrixTest.testStrassenMultiply.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MergeSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PriorityQueueTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QueueTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.QuickSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SelectionSortTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SequenceAlignerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StackTest.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.BenchmarkingKt (1).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.BenchmarkingKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.MainKt (1).executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.MaketablefromresultsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.Path_sum_solutionKt.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/atrivedi/DSA/IDD/src/main/kotlin/projectFiles&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/atrivedi/DSA/IDD/src/main/kotlin/projectFiles&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/atrivedi/DSA/IDD/src/main/kotlin/Main.kt&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.BFS_test.executor": "Run",
+    "JUnit.DijkstraTest.executor": "Run",
+    "JUnit.DirectedWeightedGraphTest.executor": "Run",
+    "JUnit.DoublyLinkedListTest.executor": "Run",
+    "JUnit.InsertionSortTest.executor": "Run",
+    "JUnit.InsertionSortTest.testInsertionSort_basicCase.executor": "Run",
+    "JUnit.MatrixBenchmarkTest.executor": "Run",
+    "JUnit.MatrixTest.executor": "Run",
+    "JUnit.MatrixTest.testStrassenMultiply.executor": "Run",
+    "JUnit.MergeSortTest.executor": "Run",
+    "JUnit.PriorityQueueTest.executor": "Run",
+    "JUnit.QueueTest.executor": "Run",
+    "JUnit.QuickSortTest.executor": "Run",
+    "JUnit.SelectionSortTest.executor": "Run",
+    "JUnit.SequenceAlignerTest.executor": "Run",
+    "JUnit.StackTest.executor": "Run",
+    "JUnit.TestHashAssociativeArray.executor": "Run",
+    "Kotlin.BenchmarkingKt (1).executor": "Run",
+    "Kotlin.BenchmarkingKt.executor": "Run",
+    "Kotlin.MainKt (1).executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
+    "Kotlin.MaketablefromresultsKt.executor": "Run",
+    "Kotlin.Path_sum_solutionKt.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/atrivedi/DSA/IDD/src/main/kotlin/projectFiles",
+    "last_opened_file_path": "C:/Users/atrivedi/DSA/IDD/src/main/kotlin/projectFiles",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/atrivedi/DSA/Assignment7.2/src/main/kotlin/Main.kt",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\atrivedi\DSA\IDD\src\main\kotlin\projectFiles" />
@@ -108,7 +113,7 @@
       <recent name="graph" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DFS_test">
+  <component name="RunManager" selected="JUnit.TestHashAssociativeArray">
     <configuration name="BFS_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IDD" />
       <extension name="coverage">
@@ -139,16 +144,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceAlignerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Assignment5" />
+    <configuration name="TestHashAssociativeArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DP.*" />
+          <option name="PATTERN" value="associative_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="DP" />
-      <option name="MAIN_CLASS_NAME" value="DP.SequenceAlignerTest" />
+      <option name="PACKAGE_NAME" value="associative_array" />
+      <option name="MAIN_CLASS_NAME" value="associative_array.TestHashAssociativeArray" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestHashAssociativeArray" />
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="JUnit.DFS_test" />
         <item itemvalue="JUnit.BFS_test" />
-        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="JUnit.SequenceAlignerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +392,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761533814932</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Finished IDD code (with correct documentation practices)">
+      <option name="closed" value="true" />
+      <created>1761569803433</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1761569803433</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +420,8 @@
     <MESSAGE value="Finished Assignment5 Code" />
     <MESSAGE value="Started IDD code" />
     <MESSAGE value="Work on IDD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work on IDD" />
+    <MESSAGE value="Finished IDD code (with correct documentation practices)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished IDD code (with correct documentation practices)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -416,6 +430,11 @@
           <url>file://$PROJECT_DIR$/IC6/src/main/kotlin/Main.kt</url>
           <line>13</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/Assignment7.2/src/main/kotlin/Main.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

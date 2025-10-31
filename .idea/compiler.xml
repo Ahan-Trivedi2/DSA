@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Assignment7" />
+        <module name="Assignment5" />
         <module name="Assignment3" />
         <module name="IDD" />
         <module name="Assignment4" />
         <module name="Assignment2" />
         <module name="IC6" />
-        <module name="Assignment5" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Assignment7.2" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
