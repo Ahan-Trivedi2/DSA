@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Finished IDD code (with correct documentation practices)">
-      <change afterPath="$PROJECT_DIR$/Assignment7/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Started Assignment 7 (finished associated array class)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/src/main/kotlin/projectFiles/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/target/classes/projectFiles/BFSKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/target/classes/projectFiles/BFSKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/target/classes/projectFiles/DFSKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/target/classes/projectFiles/DFSKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/target/classes/projectFiles/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/target/classes/projectFiles/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/target/classes/projectFiles/Maze.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/target/classes/projectFiles/Maze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/target/classes/projectFiles/MazeGeneratorKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/target/classes/projectFiles/MazeGeneratorKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IDD/target/classes/projectFiles/Metrics.class" beforeDir="false" afterPath="$PROJECT_DIR$/IDD/target/classes/projectFiles/Metrics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment7/target/test-classes/associative_array/TestHashAssociativeArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment7/target/test-classes/associative_array/TestHashAssociativeArray.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +52,8 @@
     "JUnit.DoublyLinkedListTest.executor": "Run",
     "JUnit.InsertionSortTest.executor": "Run",
     "JUnit.InsertionSortTest.testInsertionSort_basicCase.executor": "Run",
+    "JUnit.LZCompressTest.executor": "Run",
+    "JUnit.LZCompressTest.lzCompressTest.executor": "Run",
     "JUnit.MatrixBenchmarkTest.executor": "Run",
     "JUnit.MatrixTest.executor": "Run",
     "JUnit.MatrixTest.testStrassenMultiply.executor": "Run",
@@ -113,22 +105,7 @@
       <recent name="graph" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestHashAssociativeArray">
-    <configuration name="BFS_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="IDD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="projectFiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="projectFiles" />
-      <option name="MAIN_CLASS_NAME" value="projectFiles.BFS_test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LZCompressTest.lzCompressTest">
     <configuration name="DFS_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="IDD" />
       <extension name="coverage">
@@ -140,6 +117,37 @@
       <option name="PACKAGE_NAME" value="projectFiles" />
       <option name="MAIN_CLASS_NAME" value="projectFiles.DFS_test" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LZCompressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lempel_ziv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lempel_ziv" />
+      <option name="MAIN_CLASS_NAME" value="lempel_ziv.LZCompressTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LZCompressTest.lzCompressTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Assignment7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lempel_ziv.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lempel_ziv" />
+      <option name="MAIN_CLASS_NAME" value="lempel_ziv.LZCompressTest" />
+      <option name="METHOD_NAME" value="lzCompressTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,20 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP.MainKt" />
-      <module name="Assignment5" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LZCompressTest.lzCompressTest" />
+        <item itemvalue="JUnit.LZCompressTest" />
         <item itemvalue="JUnit.TestHashAssociativeArray" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="JUnit.DFS_test" />
-        <item itemvalue="JUnit.BFS_test" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761569803433</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Started Assignment 7 (finished associated array class)">
+      <option name="closed" value="true" />
+      <created>1761878523241</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1761878523241</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +430,8 @@
     <MESSAGE value="Started IDD code" />
     <MESSAGE value="Work on IDD" />
     <MESSAGE value="Finished IDD code (with correct documentation practices)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished IDD code (with correct documentation practices)" />
+    <MESSAGE value="Started Assignment 7 (finished associated array class)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started Assignment 7 (finished associated array class)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
