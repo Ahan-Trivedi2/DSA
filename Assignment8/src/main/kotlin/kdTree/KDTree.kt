@@ -4,9 +4,13 @@ package kdTree
 import kotlin.math.sqrt
 import kotlin.math.abs
 
-
 /**
- *  KDNode class to build KDTree
+ * A node in a k-d tree.
+ *
+ * @property point The point stored at this node.
+ * @property axis The dimension this node splits on.
+ * @property left Left child subtree.
+ * @property right Right child subtree.
  */
 data class KDNode(
     val point: List<Double>,
@@ -16,14 +20,18 @@ data class KDNode(
 )
 
 /**
- *  KDTree class
+ * A k-d tree for nearest-neighbor search.
+ *
+ * Builds a tree from a list of k-dimensional points and provides methods
+ * for finding the closest point to a given target using either the tree
+ * or a brute-force scan.
  */
 class KDTree(private val points: List<List<Double>>) {
     // Ensure our KDTree is created in the constructor subsection
     // when given points
     private val root: KDNode? = buildKDTree(points) // builds our tree and gives us the root node
     /**
-     * Euclidean distance function
+     * Computes the Euclidean distance between two k-dimensional points.
      */
     private fun euclideanDistance(a: List<Double>, b: List<Double>) : Double {
         var sum : Double = 0.0
@@ -35,7 +43,8 @@ class KDTree(private val points: List<List<Double>>) {
         return sqrt(sum)
     }
     /**
-     * Build KD-Tree
+     * Recursively builds the k-d tree by splitting points on the current axis
+     * and choosing the median as the node for each level.
      */
     private fun buildKDTree(points: List<List<Double>>, depth: Int = 0) : KDNode? {
         // Base case
@@ -61,14 +70,20 @@ class KDTree(private val points: List<List<Double>>) {
         return node
     }
     /**
-     * Helper function to find nearest neighbor
+     * Returns the nearest neighbor to the given target point using the k-d tree.
      */
     fun nearest(target: List<Double>): List<Double>? {
         // nearest is wrapper function of nearestHelper
         return nearestHelper(root, target, root?.point, Double.POSITIVE_INFINITY)
     }
     /**
-     * KD-Tree recursive search to find nearest neighbor (helper relies on this)
+     * Recursively searches the k-d tree to find the closest point to the target.
+     *
+     * @param node The current node being examined.
+     * @param target The point we want to find the nearest neighbor to.
+     * @param bestPoint The closest point found so far.
+     * @param bestDist The distance to the closest point found so far.
+     * @return The nearest neighbor to the target.
      */
     private fun nearestHelper(
         node: KDNode?, // Current node that we are comparing to target
@@ -115,8 +130,13 @@ class KDTree(private val points: List<List<Double>>) {
         return currentBestPoint
     }
     /**
-     * Brute force NN search static function
+     * Performs a brute-force nearest-neighbor search by checking every point.
+     *
+     * @param points The list of points to search through.
+     * @param target The point to find the closest match to.
+     * @return The nearest point to the target, or null if the list is empty.
      */
+
     // We are going to use a static method since this function
     // does not need to work on an instance of the object
     companion object {

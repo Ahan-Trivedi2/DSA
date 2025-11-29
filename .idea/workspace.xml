@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="939ec897-e99c-44d5-815c-b2aac3648056" name="Changes" comment="Finished Assignment 7">
-      <change afterPath="$PROJECT_DIR$/Assignment8/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment8/src/main/kotlin/kdTree/KDTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment8/src/main/kotlin/kdTree/KDTree.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,57 +44,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.BFS_test.executor": "Run",
-    "JUnit.DijkstraTest.executor": "Run",
-    "JUnit.DirectedWeightedGraphTest.executor": "Run",
-    "JUnit.DoublyLinkedListTest.executor": "Run",
-    "JUnit.InsertionSortTest.executor": "Run",
-    "JUnit.InsertionSortTest.testInsertionSort_basicCase.executor": "Run",
-    "JUnit.LZCompressTest.executor": "Run",
-    "JUnit.LZCompressTest.lzCompressTest.executor": "Run",
-    "JUnit.MatrixBenchmarkTest.executor": "Run",
-    "JUnit.MatrixTest.executor": "Run",
-    "JUnit.MatrixTest.testStrassenMultiply.executor": "Run",
-    "JUnit.MergeSortTest.executor": "Run",
-    "JUnit.PriorityQueueTest.executor": "Run",
-    "JUnit.QueueTest.executor": "Run",
-    "JUnit.QuickSortTest.executor": "Run",
-    "JUnit.SelectionSortTest.executor": "Run",
-    "JUnit.SequenceAlignerTest.executor": "Run",
-    "JUnit.StackTest.executor": "Run",
-    "JUnit.TestHashAssociativeArray.executor": "Run",
-    "Kotlin.BenchmarkingInfraKt.executor": "Run",
-    "Kotlin.BenchmarkingKt (1).executor": "Run",
-    "Kotlin.BenchmarkingKt.executor": "Run",
-    "Kotlin.MainKt (1).executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "Kotlin.MaketablefromresultsKt.executor": "Run",
-    "Kotlin.Path_sum_solutionKt.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/atrivedi/DSA/IDD/src/main/kotlin/projectFiles",
-    "last_opened_file_path": "C:/Users/atrivedi/DSA/IDD/src/main/kotlin/projectFiles",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/atrivedi/DSA/Assignment7.2/src/main/kotlin/Main.kt",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.BFS_test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DijkstraTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DirectedWeightedGraphTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DoublyLinkedListTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InsertionSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InsertionSortTest.testInsertionSort_basicCase.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LZCompressTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LZCompressTest.lzCompressTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MatrixBenchmarkTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MatrixTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MatrixTest.testStrassenMultiply.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MergeSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PriorityQueueTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QueueTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuickSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SelectionSortTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SequenceAlignerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StackTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestHashAssociativeArray.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.BenchmarkingInfraKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.BenchmarkingKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.BenchmarkingKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MaketablefromresultsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Path_sum_solutionKt.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/atrivedi/DSA/IDD/src/main/kotlin/projectFiles&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/atrivedi/DSA/IDD/src/main/kotlin/projectFiles&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/atrivedi/DSA/Assignment7.2/src/main/kotlin/Main.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\atrivedi\DSA\IDD\src\main\kotlin\projectFiles" />
